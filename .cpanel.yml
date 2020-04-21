@@ -1,0 +1,21 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/iamaxlzz/public_html/
+    - /bin/cp -R favicon $DEPLOYPATH
+    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp -R plugins $DEPLOYPATH
+    - /bin/cp -R styles $DEPLOYPATH
+    - /bin/cp contact.php $DEPLOYPATH
+    - /bin/cp education.php $DEPLOYPATH
+    - /bin/cp experience.php $DEPLOYPATH
+    - /bin/cp header.php $DEPLOYPATH
+    - /bin/cp index.php $DEPLOYPATH
+    - /bin/cp info.php $DEPLOYPATH
+    - /bin/cp portfolio.php $DEPLOYPATH
+    - /bin/cp services.php $DEPLOYPATH
+    - /bin/cp site.webmanifest $DEPLOYPATH
+    - /bin/cp social.php $DEPLOYPATH
+    - /bin/cp skills.php $DEPLOYPATH
+    - /bin/cp testimonials.php $DEPLOYPATH
