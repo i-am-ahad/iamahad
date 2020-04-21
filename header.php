@@ -14,7 +14,7 @@ $head = <<<EOD
         <div class="logo">iamahad<span>.</span>com</div>
         <div class="main_nav d-flex flex-row align-items-end justify-content-start">
             <ul class="d-flex flex-row align-items-center justify-content-start">
-                <li $one><a href="index.php">About</a></li>
+                <li $one><a href="/">About</a></li>
                 <li $two><a href="skills.php">Skills</a></li>
                 <li $three><a href="services.php">Services</a></li>
                 <li $four><a href="experience.php">Experience</a></li>
@@ -34,7 +34,7 @@ $head = <<<EOD
         <div class="hamburger ml-auto">menu</div>
         <div class="menu_nav text-right">
             <ul>
-                <li><a href="about.php">About</a></li>
+                <li><a href="/">About</a></li>
                 <li><a href="skills.php">Skills</a></li>
                 <li><a href="services.php">Services</a></li>
                 <li><a href="experience.php">Experience</a></li>
